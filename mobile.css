@@ -1,5 +1,14 @@
 body{
-    background-color: blue;
+    background-image: url(Bakcground.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vw;
+    opacity: 1;
+    color: white;
+}
+.Header{
+  
+    
 }
 
 .grid-container{
@@ -32,6 +41,7 @@ body{
     height:70vw;
     margin-left: 2vw;
     width: 30vw;
+    background-color: black;
 }
 .Main{
     grid-column-start:  3;
