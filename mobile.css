@@ -1,13 +1,11 @@
 body{
-    background-image: url(Bakcground.jpg);
-    background-size: cover;
-    width: 100vw;
-    height: 100vw;
-    opacity: 1;
+    background-color: black;
     color: white;
 }
-.Header{
-  
+.headtitle{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
     
 }
 
@@ -24,41 +22,45 @@ body{
 .Header{
     grid-column-start: 1;
     grid-column-end: 4;
-    border: 2px darkgreen solid;
     height:20vw;
     margin-top:2vw;
     margin-left: 2vw;
     margin-right: 2vw;
     
-    
 }
+
 .Menu{
     grid-column-start:  1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
-    border:2px red solid;
     height:70vw;
     margin-left: 2vw;
     width: 30vw;
     background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+    border-left: 1px solid white;
 }
 .Main{
     grid-column-start:  3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
-    border:2px pink solid;
     height:70vw;
     margin-right: 2vw;
     width: 66vw;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+    background-image: url(./Bakcground.jpg);
 }
 .Footer{
     grid-column-start:  1;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 3;
-    border:2px yellow solid;
     height:7.5vw;
     margin-left: 2vw;
     margin-right: 2vw;
@@ -68,7 +70,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    border:5px purple solid;
     height:69.5vw;
     
 }
@@ -346,4 +347,8 @@ body{
 #Submit{
     width: 80px;
     
+}
+#contact{
+    display: flex;
+    justify-content: center;
 }
