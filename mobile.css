@@ -63,20 +63,15 @@ body{
     
 }
 
-.Searchlabel{
+.Filtermenu{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
+    margin-bottom: 200px;
     
 }
-.Search{
-    grid-column-start: 3;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    justify-content: flex-end;
-}
+
 .Brand{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -115,6 +110,7 @@ body{
     margin-left: 10px;
     height:40px;
     margin-top: -10vw;
+    width: 60px;
 }
 .Nokia{
     grid-column-start: 6;
@@ -122,7 +118,6 @@ body{
     grid-row-start: 2;
     grid-row-end: 2;
     border:2px black solid;
-    margin-left: 10px;
     height:40px;
     margin-top: -10vw;
 }
@@ -209,4 +204,136 @@ body{
     height:40px;
     margin-top: -15vw;
     width:50px;
+}
+.Color{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -18vw;
+    width:50px;
+}
+.White{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -18vw;
+    width:50px;
+}
+.Green{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -18vw;
+    width:50px;
+}
+.Black{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -18vw;
+    width:50px;
+    margin-left:-20px
+}
+.Gold{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -18vw;
+    width:50px;
+    margin-left: 35px;
+}
+.Silver{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -18vw;
+    width:50px;
+}
+.Gray{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -18vw;
+    width:50px;
+}
+.Red{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -15vw;
+    width:40px;
+}
+.Blue{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -15vw;
+    width:50px;
+}
+.Pink{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    border:2px black solid;
+    height:40px;
+    margin-top: -15vw;
+    width:40px;
+    margin-left:-20px;
+}
+.Budget{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    border:2px black solid;
+    height:20px;
+    margin-top: -15vw;
+    
+    
+}
+#budget{
+    margin-left: 90px;
+}
+
+.Submit{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    border:2px black solid;
+    height:20px;
+    margin-top: -19vw;
+}
+
+#Submit{
+    width: 80px;
+    
 }
