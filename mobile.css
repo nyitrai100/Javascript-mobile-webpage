@@ -59,7 +59,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     border:5px purple solid;
-    
+    height:69.5vw;
     
 }
 
@@ -83,6 +83,8 @@ body{
     grid-row-start: 2;
     grid-row-end: 2;
     border:2px black solid;
+    height:1vw;
+    margin-top: -10vw;
 }
 .Apple{
     grid-column-start: 3;
@@ -90,7 +92,8 @@ body{
     grid-row-start: 2;
     grid-row-end: 2;
     border:2px black solid;
-
+    height:2.5vw;
+    margin-top: -10vw;
     
 }
 .Samsung{
@@ -100,6 +103,8 @@ body{
     grid-row-end: 2;
     border:2px black solid;
     margin-left: 10px;
+    height:2.5vw;
+    margin-top: -10vw;
 }
 .Google{
     grid-column-start: 5;
@@ -108,6 +113,8 @@ body{
     grid-row-end: 2;
     border:2px black solid;
     margin-left: 10px;
+    height:2.5vw;
+    margin-top: -10vw;
 }
 .Nokia{
     grid-column-start: 6;
@@ -116,6 +123,8 @@ body{
     grid-row-end: 2;
     border:2px black solid;
     margin-left: 10px;
+    height:2.5vw;
+    margin-top: -10vw;
 }
 .Motorola{
     grid-column-start: 7;
@@ -125,5 +134,46 @@ body{
     justify-content: center;
     border:2px black solid;
     margin-left: 10px;
+    height:2.5vw;
+    margin-top: -10vw;
 }
+
+.Memory{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border:2px black solid;
+    height:1vw;
+    margin-top: -20vw;
+}
+
+.m4MB{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border:2px black solid;
+    height:1vw;
+    margin-top: -20vw;
+}
+.m32GB{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border:2px black solid;
+    height:1vw;
+    margin-top: -20vw;
+}
+.m64GB{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border:2px black solid;
+    height:1vw;
+    margin-top: -20vw;
+}
+
 
