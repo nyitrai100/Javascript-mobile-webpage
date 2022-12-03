@@ -33,9 +33,61 @@ const phones = {
         Cost: 399,
         Colors: ["Green", "White", "Black",],
         Ext: ".png",
-            },
+        },
+
+    4: {
+        Brand: "Google",
+        Name: "Pixel 6Pro",
+        Memory: "256GB",
+        Cost: 749,
+        Colors: ["Black",],
+        Ext: ".png",
+        },
+        
+    5: {
+        Brand: "Motorola",
+        Name: "G82",
+        Memory: "128GB",
+        Cost: 249,
+        Colors: ["Gray",],
+        Ext: ".png",
+        },
     
-    
+    6: {
+        Brand: "Motorola",
+        Name: "Moto E30",
+        Memory: "32GB",
+        Cost: 89,
+        Colors: ["Blue", "Gray",],
+        Ext: ".png",
+        },
+
+     7: {
+        Brand: "Samsung",
+        Name: "Galaxy S22 Plus",
+        Memory: "128GB",
+        Cost: 949,
+        Colors: ["Green", "Black", "White", "Pink",],
+        Ext: ".png",
+        },
+
+    8: {
+        Brand: "Samsung",
+        Name: "Galaxy A13",
+        Memory: "64GB",
+        Cost: 129,
+        Colors: ["Black", "White",],
+        Ext: ".png",
+        },
+            
+    9: {
+        Brand: "Nokia",
+        Name: "105",
+        Memory: "4MB",
+        Cost: 25,
+        Colors: ["Blue", "Black", "Pink",],
+        Ext: ".png",
+        },
 
     
 }
