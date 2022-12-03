@@ -25,6 +25,16 @@ const phones = {
         Colors: ["Blue", "White", "Pink", "Black", ],
         Ext: ".png",
         },
+
+    3: {
+        Brand: "Google",
+        Name: "Pixel 6A",
+        Memory: "128GB",
+        Cost: 399,
+        Colors: ["Green", "White", "Black",],
+        Ext: ".png",
+            },
+    
     
 
     
