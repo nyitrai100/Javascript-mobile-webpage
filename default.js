@@ -38,4 +38,5 @@ function submit(){
     console.log(mobiles);
 }
 
-
+//budget searhc bar
+ const budget = menu.querySelector("div[name='budget']");
