@@ -28,19 +28,29 @@ function submit(){
     // ONLY ONCE
     const mobiles = [];
     phones.forEach(function(phone){
-        if (brandCheckboxes.includes(phone.Brand) && memoryCheckboxes.includes(phone.Memory) && colorCheckboxes.includes(phone.Color)) {
+        if ((brandCheckboxes.length > 0 ? brandCheckboxes.includes(phone.Brand) : brandCheckboxes) && (memoryCheckboxes.length > 0 ? memoryCheckboxes.includes(phone.Memory) : memoryCheckboxes)
+        && (colorCheckboxes.length > 0 ? colorCheckboxes.includes(phone.Color) : colorCheckboxes)) {
             mobiles.push(phone);
         }
-       i
         
        
     });
    
 
 
-    console.log(mobiles,mobile2);
+    console.log(mobiles);
 }
 
-//budget search bar
+//budget 
 
-//
+// const budgets = menu.querySelectorAll("div[name='budget2']");
+// const budgetScale = [];
+// budgets.forEach(function(budget){
+//     const rangevalue = budget.querySelector("#rangeValue");
+//     if(option1 === 0){
+//         budgetScale.push();
+//     if(option2 )
+//     }
+// });
+
+    // colorCheckboxes.push(checkbox.id)

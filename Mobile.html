@@ -128,14 +128,15 @@
 
             <div class="Budget" name="budget2">
                 <label for="budget">Select your Budget </label>
-                <input type="range" min="0" max="100" value="0" step="20" list="volsettings" name="budget" id="budget" oninput="rangeValue.innerText = this.value">
+                <input type="range" min="0" max="1200" value="0" step="200" list="volsettings" name="budget" id="budget" oninput="rangeValue.innerText = this.value">
                 <datalist id="volsettings">
-                <option>0</option>
-                <option>20</option>
-                <option>40</option>
-                <option>60</option>
-                <option>80</option>
-                <option>100</option>
+                <option id="option1">0</option>
+                <option id="option2">200</option>
+                <option id="option3">400</option>
+                <option id="option4">600</option>
+                <option id="option5">800</option>
+                <option id="option6">1000</option>
+                <option id="option7">1200</option>
                 </datalist>
                 <p id="rangeValue">0</p>
             </div>
