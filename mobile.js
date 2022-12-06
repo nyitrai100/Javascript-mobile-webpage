@@ -6,7 +6,7 @@ const phones = [
      Memory: "512GB",
      Cost: 1149,
      Color: "Gold",
-     Ext: ".png",
+     Ext: "iphone12pro.jpeg",
     },
     {
         Brand: "Apple",
@@ -14,7 +14,7 @@ const phones = [
         Memory: "512GB",
         Cost: 1149,
         Color: "Silver",
-        Ext: ".png",
+        Ext: "iphone12pro.jpeg",
        },
 
     {
@@ -23,7 +23,7 @@ const phones = [
         Memory: "512GB",
         Cost: 1149,
         Color: "Gray",
-        Ext: ".png",
+        Ext: "iphone12pro.jpeg",
        },
 
     {
@@ -32,7 +32,7 @@ const phones = [
         Memory: "64GB",
         Cost: 349,
         Color: "Red",
-        Ext: ".png",
+        Ext: "iphoneSE2020.jpeg",
         },
 
         {
@@ -41,7 +41,7 @@ const phones = [
         Memory: "64GB",
         Cost: 349,
         Color: "White",
-        Ext: ".png",
+        Ext: "iphoneSE2020.jpeg",
         },
          {
         Brand: "Apple",
@@ -49,7 +49,7 @@ const phones = [
         Memory: "256GB",
         Cost: 729,
         Color: "Blue",
-        Ext: ".png",
+        Ext: "iphone13Mini.jpeg",
         },
         {
         Brand: "Apple",
@@ -57,7 +57,7 @@ const phones = [
         Memory: "256GB",
         Cost: 729,
         Color: "White",
-        Ext: ".png",
+        Ext: "iphone13Mini.jpeg",
         },
         {
         Brand: "Apple",
@@ -65,7 +65,7 @@ const phones = [
         Memory: "256GB",
         Cost: 729,
         Color: "Pink",
-        Ext: ".png",
+        Ext: "iphone13Mini.jpeg",
          },
         {
         Brand: "Apple",
@@ -73,7 +73,7 @@ const phones = [
         Memory: "256GB",
         Cost: 729,
         Color: "Black",
-        Ext: ".png",
+        Ext: "iphone13Mini.jpeg",
                     },
 
     {
@@ -82,7 +82,7 @@ const phones = [
         Memory: "128GB",
         Cost: 399,
         Color: "Green",
-        Ext: ".png",
+        Ext: "googlepixel6a.jpeg",
         },
 
         {
@@ -91,7 +91,7 @@ const phones = [
         Memory: "128GB",
         Cost: 399,
         Color: "White",
-        Ext: ".png",
+        Ext: "googlepixel6a.jpeg",
         },
              
         {
@@ -100,7 +100,7 @@ const phones = [
         Memory: "128GB",
         Cost: 399,
         Color :"Black",
-        Ext: ".png",
+        Ext: "googlepixel6a.jpeg",
         },
         
 
@@ -109,8 +109,8 @@ const phones = [
         Name: "Pixel 6Pro",
         Memory: "256GB",
         Cost: 749,
-        Colors: ["Black",],
-        Ext: ".png",
+        Colors: "Black",
+        Ext: "googlepixal6pro.jpeg",
         },
         
     {
@@ -118,8 +118,8 @@ const phones = [
         Name: "G82",
         Memory: "128GB",
         Cost: 249,
-        Colors: ["Gray",],
-        Ext: ".png",
+        Colors: "Gray",
+        Ext: "MotorolaG82.jpeg",
         },
     
     {
@@ -128,7 +128,7 @@ const phones = [
         Memory: "32GB",
         Cost: 89,
         Color: "Gray",
-        Ext: ".png",
+        Ext: "MotorolaE30.jpeg",
         },
         {
         Brand: "Motorola",
@@ -136,7 +136,7 @@ const phones = [
         Memory: "32GB",
         Cost: 89,
         Color: "Blue",
-        Ext: ".png",
+        Ext: "MotorolaE30.jpeg",
             },
 
      {
@@ -145,7 +145,7 @@ const phones = [
         Memory: "128GB",
         Cost: 949,
         Color: "Green",
-        Ext: ".png",
+        Ext: "samsunggalaxys22plus.jpeg",
         },
 
      {
@@ -154,7 +154,7 @@ const phones = [
         Memory: "128GB",
         Cost: 949,
         Color: "Black",
-        Ext: ".png",
+        Ext: "samsunggalaxys22plus.jpeg",
         },
 
          {
@@ -163,15 +163,16 @@ const phones = [
         Memory: "128GB",
         Cost: 949,
         Color: "White",
-        Ext: ".png",
+        Ext: "samsunggalaxys22plus.jpeg",
         },
+
          {
         Brand: "Samsung",
         Name: "Galaxy S22 Plus",
         Memory: "128GB",
         Cost: 949,
         Color: "Pink",
-        Ext: ".png",
+        Ext: "samsunggalaxys22plus.jpeg",
         },
 
     {
@@ -180,7 +181,7 @@ const phones = [
         Memory: "64GB",
         Cost: 129,
         Color: "Black",
-        Ext: ".png",
+        Ext: "samsunggalaxya13.jpeg",
         },
      {
         Brand: "Samsung",
@@ -188,7 +189,7 @@ const phones = [
         Memory: "64GB",
         Cost: 129,
         Color: "White",
-        Ext: ".png",
+        Ext: "samsunggalaxya13.jpeg",
         },
             
     {
@@ -197,7 +198,7 @@ const phones = [
         Memory: "4MB",
         Cost: 25,
         Color: "Blue",
-        Ext: ".png",
+        Ext: "nokia105.jpg",
         },
     
      {
@@ -206,7 +207,7 @@ const phones = [
         Memory: "4MB",
         Cost: 25,
         Color: "Black",
-        Ext: ".png",
+        Ext: "nokia105.jpg",
         },
      {
         Brand: "Nokia",
@@ -214,7 +215,7 @@ const phones = [
         Memory: "4MB",
         Cost: 25,
         Color: "Pink",
-        Ext: ".png",
+        Ext: "nokia105.jpg",
         },
 
     
