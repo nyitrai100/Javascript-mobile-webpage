@@ -1,4 +1,7 @@
+let mobiles = [];
+
 function submit(){
+    mobiles = [];
     const menu = document.querySelector("#Menu");
     // Brands
     const brands = menu.querySelectorAll("div[name='brand']");
@@ -22,35 +25,47 @@ function submit(){
     colors.forEach(function(color){
         const checkbox = color.querySelector("input[type='checkbox']");
         if(checkbox.checked === true)
-        colorCheckboxes.push(checkbox.id)
+        colorCheckboxes.push(checkbox.id);
         
     })
+    //budget
+    const max = document.querySelector('#budget');
+    console.log(max.value);
+
     // ONLY ONCE
-    const mobiles = [];
     phones.forEach(function(phone){
         if ((brandCheckboxes.length > 0 ? brandCheckboxes.includes(phone.Brand) : brandCheckboxes) && (memoryCheckboxes.length > 0 ? memoryCheckboxes.includes(phone.Memory) : memoryCheckboxes)
-        && (colorCheckboxes.length > 0 ? colorCheckboxes.includes(phone.Color) : colorCheckboxes)) {
+        && (colorCheckboxes.length > 0 ? colorCheckboxes.includes(phone.Color) : colorCheckboxes)
+        && (phone.Cost < max.value)) {
             mobiles.push(phone);
         }
-        
-       
     });
    
+    renderPhones();
+}
+ 
 
+submit();
+function renderPhones(){
 
-    console.log(mobiles);
+    const divElem = document.getElementById("Main");
+    divElem.innerHTML = "";
+    for(let i = 0; i < mobiles.length;i++){
+        const newPhone = document.createElement("div");
+        newPhone.classList.add('card');
+        newPhone.innerHTML = `
+        
+            <p>${mobiles[i].Brand}</p>
+            <p>${mobiles[i].Name}</p>
+            <p>${mobiles[i].Memory}</p>
+            <p>${mobiles[i].Cost}</p>
+            <p>${mobiles[i].Color}</p>
+            
+        
+        `;
+        divElem.appendChild(newPhone);
+    }
 }
 
-//budget 
 
-// const budgets = menu.querySelectorAll("div[name='budget2']");
-// const budgetScale = [];
-// budgets.forEach(function(budget){
-//     const rangevalue = budget.querySelector("#rangeValue");
-//     if(option1 === 0){
-//         budgetScale.push();
-//     if(option2 )
-//     }
-// });
-
-    // colorCheckboxes.push(checkbox.id)
+// <img src=" /${mobiles[i].Ext}" class="imagines">
