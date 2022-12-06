@@ -327,3 +327,9 @@ body{
     display: flex;
     justify-content: center;
 }
+
+#rangeValue{
+    height:40px;
+    width:50px;
+    margin-left: 19.5vw;
+}

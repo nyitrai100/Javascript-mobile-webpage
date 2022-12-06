@@ -31,12 +31,16 @@ function submit(){
         if (brandCheckboxes.includes(phone.Brand) && memoryCheckboxes.includes(phone.Memory) && colorCheckboxes.includes(phone.Color)) {
             mobiles.push(phone);
         }
+       i
         
        
     });
+   
 
-    console.log(mobiles);
+
+    console.log(mobiles,mobile2);
 }
 
-//budget searhc bar
- const budget = menu.querySelector("div[name='budget']");
+//budget search bar
+
+//
