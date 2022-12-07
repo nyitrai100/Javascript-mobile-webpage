@@ -370,5 +370,11 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
     
-
 }
+
+#myVideo{
+    height: 42.8vh;
+    width: 96.2vw;
+    margin-top: -15vw;
+    object-fit: cover;
+     }
