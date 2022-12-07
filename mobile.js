@@ -109,7 +109,7 @@ const phones = [
         Name: "Pixel 6Pro",
         Memory: "256GB",
         Cost: 749,
-        Colors: "Black",
+        Color: "Black",
         Ext: "googlepixal6pro.jpeg",
         },
         
@@ -118,7 +118,7 @@ const phones = [
         Name: "G82",
         Memory: "128GB",
         Cost: 249,
-        Colors: "Gray",
+        Color: "Gray",
         Ext: "MotorolaG82.jpeg",
         },
     

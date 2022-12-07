@@ -6,6 +6,13 @@ body{
     display: flex;
     font-size: 60px;
     justify-content: center;
+    animation: blinker 5s linear infinite;
+}
+
+    @keyframes blinker {
+    50% {
+    opacity: 0;
+  }
     
 }
 
@@ -334,8 +341,34 @@ body{
     margin-left: 19.5vw;
 }
 .card{
-    width: 500px;
-    height: 300px;
+    width: 100px;
+    height: 230px;
     background: #222222;
     color: white;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 10px;
+    font-size: smaller;
+    margin:5px;
+    
+    -webkit-box-shadow: 0px 4px 22px 2px rgba(0,0,0,0.4);
+    -webkit-transition: all .3s ease-in-out;
+    cursor: pointer;
+
+}
+.card:hover{
+    -webkit-transform:scale(.95);
+    background-position: bottom;
+}
+
+.imagines{
+    width: 40px;
+    height: 80px;
+}
+.Main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
 }

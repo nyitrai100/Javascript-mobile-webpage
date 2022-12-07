@@ -54,7 +54,7 @@ function renderPhones(){
         const newPhone = document.createElement("div");
         newPhone.classList.add('card');
         newPhone.innerHTML = `
-        
+        <img src="./phonepictures/${mobiles[i].Ext}" class="imagines">
             <p>${mobiles[i].Brand}</p>
             <p>${mobiles[i].Name}</p>
             <p>${mobiles[i].Memory}</p>
@@ -68,4 +68,3 @@ function renderPhones(){
 }
 
 
-// <img src=" /${mobiles[i].Ext}" class="imagines">
