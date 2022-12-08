@@ -1,12 +1,13 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: rgba(34,34,34,255);
+    color: black
 }
 .headtitle{
     display: flex;
     font-size: 60px;
     justify-content: center;
     animation: blinker 5s linear infinite;
+    color: white;
 }
 
     @keyframes blinker {
@@ -44,11 +45,11 @@ body{
     height:70vw;
     margin-left: 2vw;
     width: 30vw;
-    background-color: black;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    border-right:1px solid white;
-    border-left: 1px solid white;
+    background-color: rgba(211,211,211,255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right:1px solid black;
+    border-left: 1px solid black;
 }
 .Main{
     grid-column-start:  3;
@@ -58,9 +59,9 @@ body{
     height:70vw;
     margin-right: 2vw;
     width: 66vw;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    border-right:1px solid white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right:1px solid black;
     background-image: url(./Bakcground.jpg);
 }
 .Footer{
@@ -87,7 +88,7 @@ body{
     grid-row-start: 1;
     grid-row-end: 1;
     margin-bottom: 200px;
-    
+   text-decoration: underline;
 }
 
 .Brand{
@@ -97,14 +98,18 @@ body{
     grid-row-end: 2;
     height:40px;
     margin-top: -10vw;
+    
 }
 .Apple{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
-    height:40px;
+    height: 40px;
     margin-top: -10vw;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
     
 }
 .Samsung{
@@ -115,6 +120,9 @@ body{
     margin-left: 10px;
     height:40px;
     margin-top: -10vw;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Google{
     grid-column-start: 5;
@@ -125,6 +133,9 @@ body{
     height:40px;
     margin-top: -10vw;
     width: 60px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Nokia{
     grid-column-start: 6;
@@ -133,6 +144,9 @@ body{
     grid-row-end: 2;
     height:40px;
     margin-top: -10vw;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Motorola{
     grid-column-start: 7;
@@ -143,6 +157,9 @@ body{
     margin-left: 10px;
     height:40px;
     margin-top: -10vw;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .Memory{
@@ -160,7 +177,10 @@ body{
     grid-row-start: 4;
     grid-row-end: 4;
     height:40px;
-    margin-top: -25vw;
+    margin-top: -24.5vw;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
     
     
 }
@@ -170,9 +190,11 @@ body{
     grid-row-start: 4;
     grid-row-end: 4;
     height:40px;
-    width: 35px;
-    
-    margin-top: -25vw;
+    width: 50px;
+    margin-top: -24.5vw;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .m64GB{
     grid-column-start: 7;
@@ -180,8 +202,12 @@ body{
     grid-row-start: 4;
     grid-row-end: 4;
     height:40px;
-    margin-top: -25vw;
-    width: 40px;
+    margin-top: -24.5vw;
+    width: 50px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
+    
 }
 .m128GB{
     grid-column-start: 3;
@@ -190,6 +216,9 @@ body{
     grid-row-end: 3;
     height:40px;
     margin-top: -15vw;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .m256GB{
@@ -200,6 +229,9 @@ body{
     height:40px;
     margin-top: -15vw;
     width:50px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .m512GB{
     grid-column-start: 7;
@@ -209,6 +241,10 @@ body{
     height:40px;
     margin-top: -15vw;
     width:50px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
+    
 }
 .Color{
     grid-column-start: 1;
@@ -227,6 +263,10 @@ body{
     height:40px;
     margin-top: -18vw;
     width:50px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
+    
 }
 .Green{
     grid-column-start: 4;
@@ -236,6 +276,9 @@ body{
     height:40px;
     margin-top: -18vw;
     width:50px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Black{
     grid-column-start: 5;
@@ -245,7 +288,10 @@ body{
     height:40px;
     margin-top: -18vw;
     width:50px;
-    margin-left:-20px
+    margin-left:-20px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Gold{
     grid-column-start: 5;
@@ -256,6 +302,9 @@ body{
     margin-top: -18vw;
     width:50px;
     margin-left: 35px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Silver{
     grid-column-start: 6;
@@ -265,6 +314,9 @@ body{
     height:40px;
     margin-top: -18vw;
     width:50px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Gray{
     grid-column-start: 7;
@@ -274,6 +326,9 @@ body{
     height:40px;
     margin-top: -18vw;
     width:50px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Red{
     grid-column-start: 3;
@@ -282,7 +337,10 @@ body{
     grid-row-end: 4;
     height:40px;
     margin-top: -15vw;
-    width:40px;
+    width:45.5px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Blue{
     grid-column-start: 4;
@@ -292,6 +350,9 @@ body{
     height:40px;
     margin-top: -15vw;
     width:50px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Pink{
     grid-column-start: 5;
@@ -302,6 +363,9 @@ body{
     margin-top: -15vw;
     width:40px;
     margin-left:-20px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 .Budget{
     grid-column-start: 1;
@@ -374,7 +438,10 @@ body{
 
 #myVideo{
     height: 42.8vh;
+    max-height: 315px;
     width: 96.2vw;
     margin-top: -15vw;
     object-fit: cover;
      }
+
+.Footer{color: white;}

@@ -55,10 +55,11 @@ function renderPhones(){
         newPhone.classList.add('card');
         newPhone.innerHTML = `
        <img src="./phonepictures/${mobiles[i].Ext}" class="imagines">
+       
            <u> <p>${mobiles[i].Brand}</p> </u>
             <p>${mobiles[i].Name}</p>
             <p>${mobiles[i].Memory}</p>
-            <p>${mobiles[i].Cost}</p>
+            <p>£${mobiles[i].Cost}</p>
             <p>${mobiles[i].Color}</p>
             
         

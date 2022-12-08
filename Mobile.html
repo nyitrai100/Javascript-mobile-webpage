@@ -30,7 +30,7 @@
                 <label for="Brand" id="Brand">Brand</label>
             </div>
             
-
+            
             <div class="Apple" name="brand">
                 <label for="Apple" id="Applelabel" >Apple</label>
                 <input type="checkbox" name="Apple" id="Apple">
@@ -57,7 +57,7 @@
                 <input type="checkbox" name="Motorola" id="Motorola">
             </div>
         
-
+       
 
             <div class="Memory">
                 <label for="Memory" id="Memory">Memory</label>
@@ -133,8 +133,8 @@
           
 
             <div class="Budget" name="budget2">
-                <label for="budget">Select your Budget </label>
-                <input type="range" min="0" max="1200" value="1200" step="200" list="volsettings" name="budget" id="budget" oninput="rangeValue.innerText = this.value">
+                <label for="budget">Select Your Max Budget </label>
+                <input type="range" min="0" max="1200" value="1200" step="200" list="volsettings" name="budget" id="budget" oninput="rangeValue.innerText = `£${this.value}`">
                 <datalist id="volsettings">
                 <option id="option1">0</option>
                 <option id="option2">200</option>
@@ -144,7 +144,7 @@
                 <option id="option6">1000</option>
                 <option id="option7">1200</option>
                 </datalist>
-                <p id="rangeValue">0</p>
+                <p id="rangeValue">£1200</p>
             </div>
 
             <div class="Submit">
