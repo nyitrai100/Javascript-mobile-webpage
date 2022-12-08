@@ -98,6 +98,7 @@ body{
     grid-row-end: 2;
     height:40px;
     margin-top: -10vw;
+   
     
 }
 .Apple{
@@ -169,6 +170,7 @@ body{
     grid-row-end: 3;
     height:40px;
     margin-top: -15vw;
+    
 }
 
 .m4MB{
@@ -254,6 +256,7 @@ body{
     height:40px;
     margin-top: -18vw;
     width:50px;
+    
 }
 .White{
     grid-column-start: 3;
@@ -374,11 +377,13 @@ body{
     grid-row-end: 5;
     height:20px;
     margin-top: -15vw;
+   
     
     
 }
 #budget{
     margin-left: 90px;
+    
 }
 
 .Submit{
