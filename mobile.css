@@ -9,8 +9,6 @@ body{
 }
 
 
-
-
 .headtitle{
     display: flex;
     font-size: 300%;
@@ -229,7 +227,7 @@ padding-left: 15%;
 
 .card{
     width: 10%;
-    height: 23%;
+    height: 22%;
     background: white;
     color: black;
     text-align: center;
@@ -261,3 +259,33 @@ padding-left: 15%;
 
 
 .Footer{color: white;}
+
+@media( min-width: 1070px) and (max-width: 1199px) {
+    .card {
+        font-size: 8%;
+        width: 8%;
+    }
+    .imagines{
+        width: 70%;
+        height: 50%;
+            
+        }
+    body{ 
+        font-size: 84%;
+    }
+}
+@media( min-width: 860px) and (max-width: 1069px) {
+    .card {
+        font-size: 8%;
+        width: 10%;
+        height: 20%;
+    }
+    .imagines{
+        width: 40%;
+        height: 30%;
+            
+        }
+    body{ 
+        font-size: 65%;
+    }
+}
