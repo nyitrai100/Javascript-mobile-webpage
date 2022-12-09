@@ -42,26 +42,20 @@ body{
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
-    height:70vw;
+    height:84vw;
     margin-left: 2vw;
-    width: 30vw;
+    width: 19vw;
     background-color: rgba(211,211,211,255);
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right:1px solid black;
-    border-left: 1px solid black;
+    border-right: 1px solid gray;
 }
 .Main{
     grid-column-start:  3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
-    height:70vw;
+    height:84vw;
     margin-right: 2vw;
-    width: 66vw;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right:1px solid black;
+    width: 77vw;
     background-image: url(./Bakcground.jpg);
 }
 .Footer{
@@ -74,329 +68,146 @@ body{
     margin-right: 2vw;
     margin-bottom: 2vw;
 }
-.flex-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height:69.5vw;
-    
-}
+
 
 .Filtermenu{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    margin-bottom: 200px;
-   text-decoration: underline;
+   display: flex;
+   justify-content: flex-start;
+   padding-bottom: 10%;
+   font-style: italic;
+   padding-left: 1%;
+   
 }
 
 .Brand{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    height:40px;
-    margin-top: -10vw;
+  
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: row;
+   padding-top: 10%;
+   font-style: italic;
+   padding-left: 3%;
    
     
 }
-.Apple{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    height: 40px;
-    margin-top: -10vw;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
+.brands1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
     
 }
-.Samsung{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    margin-left: 10px;
-    height:40px;
-    margin-top: -10vw;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
+
+.brands2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    
+    
 }
-.Google{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    margin-left: 10px;
-    height:40px;
-    margin-top: -10vw;
-    width: 60px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.Nokia{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    height:40px;
-    margin-top: -10vw;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.Motorola{
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    justify-content: center;
-    margin-left: 10px;
-    height:40px;
-    margin-top: -10vw;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
+
 
 .Memory{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    height:40px;
-    margin-top: -15vw;
-    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-top: 10%;
+    font-style: italic;
+    padding-left: 3%;
 }
 
-.m4MB{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -24.5vw;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-    
-    
-}
-.m32GB{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    width: 50px;
-    margin-top: -24.5vw;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.m64GB{
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -24.5vw;
-    width: 50px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-    
-}
-.m128GB{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    height:40px;
-    margin-top: -15vw;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
+.memory1{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+     
 }
 
-.m256GB{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    height:40px;
-    margin-top: -15vw;
-    width:50px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
+.memory2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
-.m512GB{
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    height:40px;
-    margin-top: -15vw;
-    width:50px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-    
-}
+
+
 .Color{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -18vw;
-    width:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10%;
+    font-style: italic;
+    padding-left: 3%;
+}
+.color1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
     
 }
-.White{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -18vw;
-    width:50px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-    
+
+.color2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
-.Green{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -18vw;
-    width:50px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
+
+.color3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
-.Black{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -18vw;
-    width:50px;
-    margin-left:-20px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.Gold{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -18vw;
-    width:50px;
-    margin-left: 35px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.Silver{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -18vw;
-    width:50px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.Gray{
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -18vw;
-    width:50px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.Red{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -15vw;
-    width:45.5px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.Blue{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -15vw;
-    width:50px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
-.Pink{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    height:40px;
-    margin-top: -15vw;
-    width:40px;
-    margin-left:-20px;
-    border: 1px  solid black;
-    border-radius: 5px;
-    text-align: center;
-}
+
 .Budget{
-    grid-column-start: 1;
-    grid-column-end: 8;
-    grid-row-start: 5;
-    grid-row-end: 5;
-    height:20px;
-    margin-top: -15vw;
-   
-    
-    
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 80%;
+padding-top: 10%;
+padding-right: 5%;
+padding-left: 15%;
 }
-#budget{
-    margin-left: 90px;
+   
+#rangeValue{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
     
 }
 
 .Submit{
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 6;
-    grid-row-end: 6;
-    height:20px;
-    margin-top: -19vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 #Submit{
-    width: 80px;
+    width: 50%;
     
 }
 #contact{
@@ -404,11 +215,6 @@ body{
     justify-content: center;
 }
 
-#rangeValue{
-    height:40px;
-    width:50px;
-    margin-left: 19.5vw;
-}
 .card{
     width: 100px;
     height: 230px;
@@ -441,12 +247,5 @@ body{
     
 }
 
-#myVideo{
-    height: 42.8vh;
-    max-height: 315px;
-    width: 96.2vw;
-    margin-top: -15vw;
-    object-fit: cover;
-     }
 
 .Footer{color: white;}
