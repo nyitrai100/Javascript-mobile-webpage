@@ -360,6 +360,9 @@ padding-left: 15%;
         width: 100%;
         
     }
+    .headtitle{
+        font-size: 5vw;
+    }
 }
 
 
@@ -403,6 +406,8 @@ padding-left: 15%;
         justify-content: flex-end;
         padding-right: 7vw;
         
-    
+}
+.headtitle{
+    font-size: 5vw;
 }
 }
