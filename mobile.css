@@ -289,3 +289,120 @@ padding-left: 15%;
         font-size: 65%;
     }
 }
+
+
+
+@media( min-width: 0px) and (max-width: 859px) {
+    .card {
+        font-size: 5px;
+        width: 12%;
+        height: 12%;
+    }
+    .imagines{
+        width: 60%;
+        height: 40%;
+            
+        }
+    body{ 
+        font-size: 20%;
+    }
+    .Main{
+        height: 280vw;
+        margin-top: 5.2%;
+        
+    }
+    .Menu{
+        height: 280vw;
+        margin-top: 19%;
+        width: 22vw;
+        margin-left: -0.5vw;
+        
+    }
+
+    .brands1{
+        flex-direction: column;
+        padding-right: 10vw;
+        
+    }
+    .brands2{
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-right: 10vw;
+        
+    }
+
+    .memory1{
+        flex-direction: column;
+        
+        padding-right: 10vw;
+    }
+
+    .memory2{
+        flex-direction: column;
+        padding-right: 10vw;
+    }
+
+    .color1{
+        flex-direction: column;
+        padding-right: 10vw;
+    }
+
+    .color2{
+        flex-direction: column;
+        padding-right: 10vw;
+    }
+    
+    .color3{
+        flex-direction: column;
+        padding-right: 11vw;
+    }
+    #Submit{
+        width: 100%;
+        
+    }
+}
+
+
+@media( min-width: 375px) and (max-width: 859px) {
+    .card {
+        font-size: 6px;
+        width: 13%;
+        height: 13%;
+    }
+    .imagines{
+        width: 60%;
+        height: 40%;
+            
+        }
+    body{ 
+        font-size: 20%;
+    }
+    .Main{
+        height: 280vw;
+        margin-top: 5.2%;
+        
+    }
+    .Menu{
+        height: 280vw;
+        margin-top: 19%;
+        width: 22vw;
+        margin-left: -0.5vw;
+        
+    }
+    .memory2{
+        flex-direction: column;
+        padding-right: 9vw;
+    }
+    .brands1{
+        flex-direction: column;
+        padding-right: 5vw;
+        
+    }
+    .brands2{
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-right: 7vw;
+        
+    
+}
+}
